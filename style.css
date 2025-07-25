@@ -1,0 +1,122 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: #27f5b7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: Arial, sans-serif;
+}
+
+.todo-app {
+  background: #f1f5f9;
+  padding: 20px;
+  border-radius: 20px;
+  width: 350px;
+}
+
+.todo-input {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.todo-input input {
+  flex: 1;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  box-shadow: inset 4px 4px 8px #cbd5e1, inset -4px -4px 8px #ffffff;
+  outline: none;
+}
+
+.tabs {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 10px;
+}
+
+.tabs span {
+  cursor: pointer;
+  font-weight: bold;
+  color: #334155;
+}
+
+.tabs span.active {
+  color: #079c6f;
+}
+
+.clear {
+  background: #079c6f;
+  border: none;
+  padding: 5px 10px;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+  float: right;
+}
+
+.ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #f1f5f9;
+  margin: 5px 0;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 4px 4px 8px #cbd5e1, -4px -4px 8px #ffffff;
+  position: relative;
+}
+
+li label {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+li.completed label span {
+  text-decoration: line-through;
+  color: #94a3b8;
+}
+
+.menu {
+  position: relative;
+  cursor: pointer;
+}
+
+.menu-content {
+  display: none;
+  position: absolute;
+  top: 100%;
+  right: 0;
+  background: #fff;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+  border-radius: 8px;
+  z-index: 999;
+}
+
+.menu-content div {
+  padding: 8px 15px;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.menu-content div:hover {
+  background: #e2e8f0;
+}
+
+@media (max-width: 400px) {
+  .todo-app {
+    width: 90%;
+  }
+}

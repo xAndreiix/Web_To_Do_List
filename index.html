@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To-Do List</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+    <div class="todo-app">
+        <div class="todo-input">
+            <input type="text" id="task-input" placeholder="Add a new task">
+        </div>
+        <div class="tabs">
+            <span id="all" class="active"> All</span>
+            <span id="pending">Pending</span>
+            <span id="completed">Completed</span>
+            <button class="clear" id="clearAll">Clear All</button>
+        </div>
+        <ul id="task-list"></ul>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
