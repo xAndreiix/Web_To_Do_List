@@ -18,12 +18,12 @@ A simple, responsive to-do list web application built using **HTML**, **CSS**, a
 
 ## 🗂️ File Structure
 - .
-- ├── index.html # Main HTML structure
-- ├── style.css # Custom styles for layout and interactions
-- ├── script.js # Core JavaScript logic
-- ├── .gitignore # Ignore system/editor files
-- ├── LICENSE # MIT License
-- └── README.md # This file
+- ├── index.html       # Main HTML structure
+- ├── style.css        # Custom styles for layout and interactions
+- ├── script.js        # Core JavaScript logic
+- ├── .gitignore       # Ignore system/editor files
+- ├── LICENSE          # MIT License
+- └── README.md        # This file
 
 
 ---
