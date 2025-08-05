@@ -4,6 +4,12 @@ A simple, responsive to-do list web application built using **HTML**, **CSS**, a
 
 ---
 
+## 💻 Live Demo
+
+- [⛓️‍💥 Demo](https://web-to-do-list-azure.vercel.app/)
+
+---
+
 ## ✅ Features
 
 - Add new tasks
@@ -25,7 +31,6 @@ A simple, responsive to-do list web application built using **HTML**, **CSS**, a
 - ├── LICENSE          # MIT License
 - └── README.md        # This file
 
-
 ---
 
 ## 📦 How to Use
@@ -38,12 +43,16 @@ A simple, responsive to-do list web application built using **HTML**, **CSS**, a
 
 2. Open index.html in any modern browser. That’s it. No build step or server needed.
 
+---
+
 ## 📋 Notes
 All task state is stored in memory (no localStorage or backend yet).
 
 Tasks reset when the page is refreshed.
 
 Boxicons CDN is used for edit/delete icons.
+
+---
 
 ## 🔧 Possible Improvements
 Persist tasks in localStorage
