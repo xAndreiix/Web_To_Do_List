@@ -63,8 +63,12 @@ Enable drag-and-drop reordering
 
 Add animations or sound feedback
 
+---
+
 ## 📄 License
 This project is open-sourced under the MIT License.
+
+---
 
 ## ✍️ Author
 Andrei Iliescu – Front-end developer focused on writing clean, functional interfaces.
