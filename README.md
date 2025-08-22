@@ -13,7 +13,7 @@ A simple, responsive to-do list web application built using **HTML**, **CSS**, a
 ## 📷 Screenshots
 
 <p align="center">
-  <img src="screenshots/to-do-list.png" alt="Task list view" width="600">
+  <img src="screenshots/to-do-list.png" width="600">
 </p>
 
 ---
