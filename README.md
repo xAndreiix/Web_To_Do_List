@@ -56,7 +56,7 @@ A simple, responsive to-do list web application built using **HTML**, **CSS**, a
 ---
 
 ## Project Structure
-- │ 🗂️ to-do list App/
+- │ 🗂️ to-do list app/
 - ├── index.html
 - ├── style.css
 - ├── script.js
