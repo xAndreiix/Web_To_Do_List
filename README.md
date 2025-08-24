@@ -3,7 +3,7 @@
 ---
 
 ## 📋 Table of Contents
-- 🏷️ [Introduction](#introduction)
+- 🏷️ [Project Description](#project-description)
 - 💻 [Live Demo](#live-demo)
 - 📷 [Screenshots](#screenshots)
 - ✨ [Features](#features)
@@ -19,7 +19,7 @@
 
 ---
 
-## Introduction
+## Project Description
 A simple, responsive to-do list web application built using **HTML**, **CSS**, and **Vanilla JavaScript**. Tasks can be added, edited, marked as completed, filtered, and deleted — all in the browser with no dependencies.
 <!-- ## Badges -->
 
