@@ -73,6 +73,8 @@ A simple, responsive to-do list web application built using **HTML**, **CSS**, a
 1. Clone the repository:
 ```bash
 git clone https://github.com/xAndreiix/Web_To_Do_List.git
+```
+```bash
 cd todo-list
 ```
 2. Open index.html in any modern browser. That’s it. No build step or server needed.
